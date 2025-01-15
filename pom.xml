@@ -8,11 +8,15 @@
 		<version>2.4.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+<<<<<<< HEAD
 	<groupId>com.chandan_bamba</groupId>
 	<artifactId>SpringBootQuizApp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>SpringBootQuizApp</name>
 	<description>Simple quiz application using Spring Boot &amp; MySQL</description>
+=======
+	
+>>>>>>> 7ef48062ef2bfeef49bdd6fa18d8505f4bad77ca
 	<properties>
 		<java.version>15</java.version>
 	</properties>
@@ -20,9 +24,19 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
+<<<<<<< HEAD
 			<version>8.0.32</version> <!-- Use the appropriate version -->
 		</dependency>
 
+=======
+			<version>8.0.30</version> <!-- Use a recent stable version -->
+		</dependency>
+
+				<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+		</dependency>
+>>>>>>> 7ef48062ef2bfeef49bdd6fa18d8505f4bad77ca
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
@@ -36,7 +50,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7ef48062ef2bfeef49bdd6fa18d8505f4bad77ca
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>

@@ -160,3 +160,7 @@ values(
  (59, 'Which of these is not a valid modifier in Java?', 'static', 'volatile', 'transient', 3, -1),
  (60, 'Which of these is used to handle multiple exceptions in Java?', 'multi-catch', 'try-multi', 'try-except', 1, -1)
  ON DUPLICATE KEY UPDATE title = VALUES(title), optionA = VALUES(optionA), optionB = VALUES(optionB), optionC = VALUES(optionC), ans = VALUES(ans), chose = VALUES(chose);
+<<<<<<< HEAD
+=======
+;
+>>>>>>> 7ef48062ef2bfeef49bdd6fa18d8505f4bad77ca
